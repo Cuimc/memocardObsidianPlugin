@@ -6,5 +6,6 @@
 	"description": "This plugin allows you to create a memo card with a background image and text.",
 	"author": "cuimc",
 	"authorUrl": "https://memocard.net/",
-	"isDesktopOnly": true
+	"isDesktopOnly": true,
+    "repo": "Cuimc/memocardObsidianPlugin"
 }

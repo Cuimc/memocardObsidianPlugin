@@ -1,24 +1,17 @@
-## Develop your own plugins with Vue3
+# Memo Card Obsidian Plugin  
 
 
-## Init steps
+## description  
 
-1. Clone this repository to your `.obsidian\plugins` directory, and move into it.
+1. Memo Card is an innovative plug-in, whose core function is to convert the text content entered by users into beautiful picture format, so as to facilitate sharing, saving and enhancing memory effect.  
 
-2. Run `npm install` to install all the stuff you need, Including: 
-   + vue3 sfc support
-   + vue3 tsx support
-   + typescript
-   + esbuild
+2. As a practical tool, the Memo Card plug-in is committed to realizing seamless conversion of text and image by directly copying text into the input box, thus meeting users' diversified requirements for visual information storage.  
 
-3. Run `npm run dev` to compile code and generate a `main.js`, which is the final output. Your `main.js` will be updated simultaneously with the change of your source code files.
+3. Memo Card is a technical product focusing on information graphics processing. With advanced algorithm technology, it can easily convert all kinds of text data into high-quality pictures instantly, which greatly expands the traditional way of note-taking and provides users with a novel and creative information recording solution.  
 
-If above steps work, you can turn on 'Vue Template' plugin in Obsidian. Click the *dice* like button on the left ribbon, a new tab will open on the right and says *"Hello,Developer!"*.
-
-4. When you get ready to build a release, run `npm run build` to create it. This will remove all codemaps and minify code size.
+## Refer to the website  
+[Memo Card](https://memocard.net)
 
 
-
-## Notice
-
-+ [hot-reload](https://forum.obsidian.md/t/plugin-release-for-developers-hot-reload-the-plugin-s-youre-developing/12185) plugin may be very helpful in your developing. It reloads the plugin whose `main.js` file changes, so you don't need do it yourself every time you make changes to code.
+## Preview  
+![oDAfN.png](https://i0.imgs.ovh/2024/02/19/oDAfN.png)
