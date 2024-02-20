@@ -1,0 +1,127 @@
+@media (max-width: 500px) {
+    .container {
+        width: calc(100% - 20px);
+        padding: 0 10px 40px 10px;
+
+        .preview {
+            width: 100%;
+
+            .mobile-options {
+                margin-top: 10px;
+                box-shadow: 2px 2px 50px -20px rgba(0, 0, 0, 0.5);
+
+                .simple-options {
+                    border: none;
+                }
+            }
+
+            .content {
+                margin-top: 10px !important;
+            }
+        }
+    }
+
+    .options {
+        width: calc(100% - 40px);
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+
+        .options-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 20px;
+        }
+
+        &-item {
+            width: 45%;
+            padding: 0 6px;
+            margin-bottom: 20px;
+
+            &:last-child {
+                width: 100%;
+            }
+        }
+    }
+
+    // .options-btn {
+    //     background: var(--current-block-background-color);
+    //     margin-top: 20px;
+    //     border-radius: 16px;
+    //     box-shadow: 2px 2px 50px -20px rgba(0, 0, 0, 0.5);
+
+    //     .simple-options {}
+    // }
+
+    .image-box {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+        width: calc(100% - 80px);
+        max-height: 80%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 16px;
+        overflow: auto;
+        z-index: 1000;
+
+        p {
+            font-size: 14px;
+            color: #999999;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .mask {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .sidebar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+
+
+    .mask-enter-active,
+    .mask-leave-active,
+    .option-enter-active,
+    .option-leave-active {
+        transition: all 0.3s ease;
+    }
+
+    .mask-enter-to,
+    .mask-leave-from {
+        opacity: 1;
+    }
+
+    .mask-enter-from,
+    .mask-leave-to {
+        opacity: 0;
+    }
+
+    .option-enter-to,
+    .option-leave-from {
+        bottom: 0;
+    }
+
+    .option-enter-from,
+    .option-leave-to {
+        bottom: -400px;
+    }
+}

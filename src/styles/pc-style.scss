@@ -1,0 +1,37 @@
+@media (min-width: 500px) {
+    .container {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+        .preview {
+            margin-right: 20px;
+            width: 600px;
+
+            .exhibit {
+                .simple-options {
+                    position: absolute;
+                    bottom: -16px;
+                }
+            }
+
+        }
+    }
+
+    .options {
+        flex-shrink: 0;
+        width: 210px;
+        height: 740px;
+        border-radius: 16px;
+
+        .options-container {
+            width: 210px;
+            height: 100%;
+        }
+
+        &-item {
+            margin-bottom: 10px;
+        }
+    }
+}

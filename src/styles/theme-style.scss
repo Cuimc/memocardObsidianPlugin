@@ -1,0 +1,53 @@
+.theme-dark {
+    /* 深色主题 */
+    --background-color: #5b606c;
+    --font-color: #eeeeee;
+    --block-background-color: #232834;
+    --border-color: #999999;
+    --icon-font-color: #e5e7eb;
+
+    /* 模式切换变量 */
+    // --current-background-color: var(--dark-background-color);
+    // --current-primary-color: var(--dark-primary-color);
+    // --current-font-color: var(--dark-font-color);
+    // --current-block-background-color: var(--dark-block-background-color);
+    // --current-border-color: var(--dark-border-color);
+    // --current-hover-color: var(--dark-background-color);
+    // --current-icon-font-color: var(--dark-icon-font-color);
+}
+
+.theme-light {
+    /* 浅色主题 */
+    --background-color: #f5f5f5;
+    --font-color: #333333;
+    --block-background-color: #ffffff;
+    --border-color: #f5f5f5;
+    --icon-font-color: #999999;
+
+    /* 模式切换变量，默认light模式 */
+    // --current-background-color: var(--dark-background-color);
+    // --current-primary-color: var(--dark-primary-color);
+    // --current-font-color: var(--dark-font-color);
+    // --current-block-background-color: var(--dark-block-background-color);
+    // --current-border-color: var(--dark-border-color);
+    // --current-hover-color: var(--dark-background-color);
+    // --current-icon-font-color: var(--dark-icon-font-color);
+}
+
+
+body {
+    // --current-background-color: var(--color-base-10);
+    // --current-font-color: var(--color-base-25);
+    // --current-block-background-color: var(--color-base-10);
+    // --current-border-color: var(--color-base-50);
+    // --current-hover-color: var(--color-base-70);
+    // --current-icon-font-color: var(--color-base-30);
+
+    --current-background-color: var(--background-color);
+    --current-primary-color: var(--primary-color);
+    --current-font-color: var(--font-color);
+    --current-block-background-color: var(--block-background-color);
+    --current-border-color: var(--border-color);
+    --current-hover-color: var(--background-color);
+    --current-icon-font-color: var(--icon-font-color);
+}
