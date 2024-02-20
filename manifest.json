@@ -1,9 +1,9 @@
 {
-	"id": "obsidian-text2image-plugin",
+	"id": "memocard-text2image",
 	"name": "Memo Card",
 	"version": "1.0.2",
 	"minAppVersion": "0.12.0",
-	"description": "This plugin allows you to create a memo card with a background image and text.",
+	"description": "This plugin can convert text into beautiful pictures for saving and sharing.",
 	"author": "cuimc",
 	"authorUrl": "https://memocard.net/",
 	"isDesktopOnly": true,
